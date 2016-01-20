@@ -3,4 +3,4 @@
 hello word 
 
 I am Yuko.
-This is my first time use this.
+This is my first time use GitHub.
