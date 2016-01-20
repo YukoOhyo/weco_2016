@@ -1,0 +1,53 @@
+//http://jsbin.com/peyuju/edit?html,js,output
+
+//***HTML**************************************
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//fb.me/react-with-addons-0.13.1.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div id="Hello">
+  <div>
+</body>
+</html>
+
+//***HTML**************************************
+
+//***JSX***************************************
+var MsgBox = React.createClass({
+
+/*********
+  Init
+*********/
+
+
+/*********
+  Change
+*********/
+
+  render : function() { //重繪
+    return (
+            
+            //boostrap 樣板
+            
+      <div className="well clearfix">
+        <textarea className="form-control" onChange={this.handleChange}>
+        </textarea><br/>
+        {this.state.text}
+        <button className="btn btn-primary pull-right" disabled={this.state.text.length == 0}>FJU_CSIE</button>
+      </div>
+      
+    );
+  }
+
+});
+
+//連接React
+//連接Html
+
+//***JSX***************************************
